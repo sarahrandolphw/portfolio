@@ -1,0 +1,99 @@
+.header{
+    text-align: center;
+    padding: 10px;
+}
+.nav{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: #f2f2fa;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav a.active{
+    text-decoration: underline;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f2fa;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+h1 {
+    font-size: 40px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+}
+.pic{
+    width: 35%;
+}
+.description{
+    width: 30%;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+.fa-instagram{
+    color: black;
+    text-decoration: none;
+    cursor: hand;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
